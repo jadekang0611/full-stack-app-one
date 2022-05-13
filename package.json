@@ -1,0 +1,38 @@
+{
+  "name": "mern-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/server.generated.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist.server.generated.js"
+  },
+  "author": "Jade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-jwt": "^5.3.1",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "nodemon": "2.0.2",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-middleware": "3.7.2",
+    "webpack-hot-middleware": "2.25.0",
+    "webpack-node-externals": "1.7.2"
+  }
+}
