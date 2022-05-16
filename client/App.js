@@ -15,4 +15,4 @@ const App = () => {
   );
 };
 
-export default hot(moduel)(App);
+export default hot(module)(App);
